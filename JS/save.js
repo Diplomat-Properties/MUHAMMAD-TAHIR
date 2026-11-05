@@ -37,11 +37,11 @@ function downloadVCard() {
   const vCardData = `
 BEGIN:VCARD
 VERSION:3.0
-FN:Ayman Mohamad Ibrahem
+FN:MUHAMMAD TAHIR
 TITLE:Sales Manager
 ORG:Diplomat Properties
-TEL;TYPE=WORK,VOICE:+97156362020
-EMAIL:aymanibrahemki91@gmail.com
+TEL;TYPE=WORK,VOICE:+971555151350
+EMAIL:tahirbaig77@gmail.com
 URL:http://www.dpdxb.com
 ADR;TYPE=WORK:;;PO Box No 181702, Office NO.807, Opal Tower, Business Bay;Dubai;;UAE
 END:VCARD
@@ -52,7 +52,7 @@ END:VCARD
 
   const a = document.createElement('a');
   a.href = url;
-  a.download = 'Zein Abdallah.vcf';
+  a.download = 'MUHAMMAD TAHIR.vcf';
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
